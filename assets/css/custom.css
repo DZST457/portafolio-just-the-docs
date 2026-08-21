@@ -1,4 +1,3 @@
-/* tema */
 
 :root {
   --cyber-bg: #070914;
@@ -30,7 +29,7 @@ body {
   color: var(--cyber-text) !important;
 }
 
-/* Línea decorativa superior */
+
 body::before {
   content: "";
   position: fixed;
@@ -44,7 +43,7 @@ body::before {
   box-shadow: 0 0 14px var(--cyber-cyan);
 }
 
-/* encabezado */
+
 .site-header {
   background: rgba(7, 9, 20, .92) !important;
   border-bottom: 1px solid var(--cyber-border) !important;
@@ -82,9 +81,7 @@ body::before {
   filter: drop-shadow(0 0 10px var(--cyber-cyan));
 }
 
-/* =========================================================
-   SIDEBAR / NAV
-   ========================================================= */
+
 .side-bar,
 .side-bar .site-nav,
 .side-bar .nav-list {
@@ -180,9 +177,7 @@ body::before {
   margin-top: .15rem;
 }
 
-/* =========================================================
-   CONTENIDO
-   ========================================================= */
+
 .main,
 .main-content,
 .page-content {
@@ -212,7 +207,7 @@ p, li, td, th {
   color: var(--cyber-text);
 }
 
-/* enlaces */
+
 a,
 a:visited {
   color: var(--cyber-cyan);
@@ -231,7 +226,7 @@ a:focus {
   outline-offset: 3px;
 }
 
-/* botones y nav */
+
 .btn,
 .aux-nav .aux-nav-list-item a,
 button,
@@ -263,7 +258,6 @@ input[type="submit"]:active {
   transform: translateY(0) scale(.98);
 }
 
-/* buscador*/
 .search-input,
 .search {
   color: var(--cyber-text) !important;
@@ -281,7 +275,7 @@ input[type="submit"]:active {
   box-shadow: 0 0 14px rgba(0, 240, 255, .14) !important;
 }
 
-/* codigo, tablas*/
+
 code,
 pre,
 .highlight {
@@ -317,7 +311,7 @@ blockquote {
   box-shadow: inset 12px 0 25px rgba(255, 43, 214, .025);
 }
 
-*/
+
 .breadcrumbs li a,
 .breadcrumbs li a:visited {
   color: var(--cyber-cyan);
@@ -361,9 +355,7 @@ footer.site-footer {
   color: var(--cyber-purple);
 }
 
-/* 
-   menu 2
-   */
+
 #menu-toggle + label,
 .menu-label,
 .menu-button,
@@ -388,9 +380,7 @@ footer.site-footer {
   outline-offset: 3px;
 }
 
-/* 
-   video
-*/
+
 video {
   max-width: 100%;
   height: auto;
@@ -417,7 +407,7 @@ video {
   border: 0;
 }
 
-/* RESPONSIVE */
+
 @media (max-width: 66rem) {
   .site-header {
     background: rgba(7, 9, 20, .97) !important;
@@ -439,7 +429,6 @@ video {
   }
 }
 
-/* Reduce movimiento  */
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -451,7 +440,7 @@ video {
   }
 }
 
-/* animaciones  */
+
 @keyframes cyber-enter {
   from {
     opacity: 0;
