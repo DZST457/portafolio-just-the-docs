@@ -13,7 +13,7 @@ aqui lo que hicimos fue conectar el led a un protoboard y al arduino para que la
 ## salida digital led 1 
 aqui lo que hicimos fue lo mismo que en el trabajo anterior solo que ahora fue con dos leds para que parpaden  
 la experiencia en este trabajo fue graciosa la protoboard que estabamos usando tenia un falso entonces estuvimos algo perdidos 
-y tambien poniamos led alreves aveces entonces se hizo un despapalle. 
+y tambien poniamos led alreves aveces entonces se hizo un despapalle.  
 [video de salidas digital led 1](https://youtube.com/shorts/YsIDe4Q4NJs?feature=share)
 
 ## salida digital led 2  
