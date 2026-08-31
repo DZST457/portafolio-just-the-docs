@@ -5,7 +5,7 @@ nav_order: 6
 ---
 # Acerca de mi
 Soy Joaquin Rodolfo Morales Reboucas , tengo 18 años , estudio actualmente en la Universidad iberoamericana la carrera de ingenieria en mecatronica 
-![imagen de mi mismo](/assets/img/imgs_3/yo.png)
+![Imagen de mí mismo]({{ '/assets/img/imgs_03/yo.png' | relative_url }}) 
 Estudie en la preparatoria Argos en metepec 
 participe en el evento de robot sumo de la secundaria senca y en la robofest latam 2023 en el apartado de robots sumo
 participe en la gamejam de itchio
