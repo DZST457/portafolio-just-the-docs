@@ -456,3 +456,24 @@ video {
   0% { background-position: 0% 50%; }
   100% { background-position: 300% 50%; }
 }
+
+a[href*="youtube.com"] {
+  display: inline-block;
+  margin: .5rem 0 1.5rem;
+  padding: .65rem 1rem;
+  border: 1px solid var(--cyber-cyan);
+  border-radius: var(--cyber-radius);
+  background: linear-gradient(135deg, rgba(0, 240, 255, .08), rgba(139, 92, 246, .10));
+  color: var(--cyber-cyan) !important;
+  text-decoration: none;
+  box-shadow: 0 0 0 rgba(0, 240, 255, 0);
+  transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease, color .2s ease, background .2s ease;
+}
+
+a[href*="youtube.com"]:hover {
+  color: #fff !important;
+  border-color: var(--cyber-pink);
+  background: linear-gradient(135deg, rgba(0, 240, 255, .16), rgba(255, 43, 214, .12));
+  transform: translateY(-2px);
+  box-shadow: 0 0 14px rgba(0, 240, 255, .18), 0 0 24px rgba(255, 43, 214, .10);
+}
