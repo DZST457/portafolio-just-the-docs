@@ -36,7 +36,7 @@ Al precionar el boton lo que pasa prende el led de la protoboard
 [video entrada digital de boton](https://youtube.com/shorts/OeWH76anjJw?feature=share)
 
 ## entrada digital de boton 2
-al presionar un boton en la protoboard prende el led y al precionar el otro boton se prende el mismo led  
+al presionar un boton en la protoboard prende el led y al precionar el otro boton se prende el mismo led   
 [video boton digital 2](https://youtube.com/shorts/o9FqGWEE8wM?feature=share)
 
 ## contador leds 
@@ -44,15 +44,15 @@ es un contador de leds no se en general mucho de este circuito lo hiso mi compan
 [contador leds](https://youtube.com/shorts/1gd9nNVHQPs?feature=share)
 
 ## servomotor varios posiciones 
-para este trabajo use mi propio arduino y protoboard al inicio tuve un problema con el arduino que no funcionaba por que perdia potencia y fue por que conecte mal la tierra y el voltaje en la protoboard, el trabajo consistia en que el servo motor se moviera nada mas 
+para este trabajo use mi propio arduino y protoboard al inicio tuve un problema con el arduino que no funcionaba por que perdia potencia y fue por que conecte mal la tierra y el voltaje en la protoboard, el trabajo consistia en que el servo motor se moviera nada mas  
 [video servo varias pociones](https://youtube.com/shorts/tJ9_NNm6_Qo?feature=share)
 
 ## servomotor y potenciometro 
-en este trabajo volvi a conectar alreves los cables de voltaje y tierra, el trabajo consistia en que el servo se moviera a partir de que movieras el potenciometro
+en este trabajo volvi a conectar alreves los cables de voltaje y tierra, el trabajo consistia en que el servo se moviera a partir de que movieras el potenciometro  
 [video servomotor y potenciometro](https://youtube.com/shorts/9V_C4onrDoQ?feature=share)
 
 ## servomotores 2 y un potenciometro
-en este trabajo ahora se conecto dos servomotores para que un potenciometro lo moviera sin problema, el trabajo se a vuelto entretenido 
+en este trabajo ahora se conecto dos servomotores para que un potenciometro lo moviera sin problema, el trabajo se a vuelto entretenido  
 [video 2 servomoores y potenciometro](https://youtube.com/shorts/8EmweIY9-jk?feature=share)
 
 ## 2 servomotores y 2 potenciometros 
