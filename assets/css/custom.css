@@ -477,3 +477,139 @@ a[href*="youtube.com"]:hover {
   transform: translateY(-2px);
   box-shadow: 0 0 14px rgba(0, 240, 255, .18), 0 0 24px rgba(255, 43, 214, .10);
 }
+/* =========================================================
+   IMÁGENES — ESTILO NEON CYBERPUNK
+   ========================================================= */
+
+/* Estilo general de todas las imágenes del contenido */
+.main-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+
+  border: 1px solid rgba(0, 240, 255, .25);
+  border-radius: 12px;
+
+  background: rgba(16, 23, 42, .55);
+
+  box-shadow:
+    0 0 10px rgba(0, 240, 255, .08),
+    0 0 25px rgba(139, 92, 246, .05);
+
+  transition:
+    transform .3s ease,
+    box-shadow .3s ease,
+    border-color .3s ease,
+    filter .3s ease;
+}
+
+
+/* Efecto al pasar el mouse */
+.main-content img:hover {
+  transform: scale(1.015);
+
+  border-color: var(--cyber-cyan);
+
+  box-shadow:
+    0 0 10px rgba(0, 240, 255, .25),
+    0 0 25px rgba(0, 240, 255, .12),
+    0 0 45px rgba(255, 43, 214, .08);
+
+  filter: brightness(1.04);
+}
+
+
+/* =========================================================
+   IMÁGENES PEQUEÑAS
+   Evita que imágenes pequeñas se estiren demasiado
+   ========================================================= */
+
+.main-content p > img {
+  max-width: 100%;
+}
+
+
+/* =========================================================
+   EFECTO CYBER EN IMÁGENES CON ENLACE
+   Si la imagen es clickeable
+   ========================================================= */
+
+.main-content a > img {
+  border-color: rgba(0, 240, 255, .30);
+}
+
+.main-content a:hover > img {
+  border-color: var(--cyber-pink);
+
+  box-shadow:
+    0 0 12px rgba(0, 240, 255, .25),
+    0 0 30px rgba(255, 43, 214, .15);
+}
+
+
+/* =========================================================
+   IMÁGENES GRANDES
+   Para capturas de pantalla, proyectos, trabajos, etc.
+   ========================================================= */
+
+.main-content img[width],
+.main-content img[height] {
+  max-width: 100%;
+}
+
+
+/* =========================================================
+   EFECTO DE "PANEL"
+   Hace que ciertas imágenes se sientan como tarjetas
+   ========================================================= */
+
+.main-content img {
+  outline: 1px solid rgba(255, 43, 214, .05);
+  outline-offset: 3px;
+}
+
+
+/* =========================================================
+   IMÁGENES MUY ANCHAS
+   Evita que rompan el diseño de la página
+   ========================================================= */
+
+.main-content img {
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   MODO REDUCIDO DE ANIMACIÓN
+   Respeta la configuración de accesibilidad
+   ========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+  .main-content img {
+    transition: none;
+  }
+
+  .main-content img:hover {
+    transform: none;
+  }
+}
+
+
+/* =========================================================
+   MÓVIL
+   ========================================================= */
+
+@media (max-width: 66rem) {
+  .main-content img {
+    border-radius: 9px;
+
+    box-shadow:
+      0 0 8px rgba(0, 240, 255, .08);
+  }
+
+  .main-content img:hover {
+    transform: none;
+  }
+}
+
