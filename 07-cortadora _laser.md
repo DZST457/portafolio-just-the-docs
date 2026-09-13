@@ -8,4 +8,4 @@ nav_order: 8
 ## Introduccion  
 En la clase de pensamiento de ingeneria nos introdujeron al software de diseño asistida por computadora llamado solidworks,  
 En solidworks procedimos a hacer la tapa de una caja de 50 x 50  
-![foto tapa](assets/img/imgs_03/tapa.png)   
+![foto tapa](assets/img/imgs_03/tapa.jpg)   
