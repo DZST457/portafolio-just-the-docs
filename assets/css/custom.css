@@ -613,3 +613,17 @@ a[href*="youtube.com"]:hover {
   }
 }
 
+.foto-perfil {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  display: block;
+  margin: 1.5rem auto;
+
+  border-radius: 12px;
+  border: 2px solid var(--cyber-cyan);
+
+  box-shadow:
+    0 0 10px rgba(10, 189, 198, .25),
+    0 0 25px rgba(234, 0, 217, .12);
+}
