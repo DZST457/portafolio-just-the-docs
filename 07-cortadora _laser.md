@@ -21,8 +21,10 @@ podrían quedar flojas y la caja podría desarmarse.
 Cortadora láser
 Finalmente, utilizamos la cortadora láser para realizar los cortes de las piezas diseñadas   
 Este proceso permitió llevar los diseños realizados en SolidWorks a la fabricación física de la caja
-En el siguiente video se puede observar la cortadora láser en funcionamiento durante el proceso de fabricación:
-[Video cortadora laser](https://youtube.com/shorts/_0JH1olHJTk?feature=share)
+En el siguiente video se puede observar la cortadora láser en funcionamiento durante el proceso de fabricación:  
+
+[Video cortadora laser](https://youtube.com/shorts/_0JH1olHJTk?feature=share)  
+
 Después de realizar los cortes con la cortadora láser, procedimos a ensamblar todas las piezas para 
 formar la caja. Gracias a las medidas y tolerancias que consideramos durante el diseño 
 las diferentes partes pudieron encajar correctamente.
