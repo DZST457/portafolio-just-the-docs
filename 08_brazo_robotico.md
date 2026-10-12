@@ -4,10 +4,29 @@ title: Brazo robótico
 nav_order: 9
 ---
 # Brazo robótico
- Durante esta actividad trabajamos en el diseño y construcción de un brazo robótico, utilizando diferentes herramientas de diseño, simulación y electrónica. El proyecto nos permitió integrar conocimientos de diseño asistido por computadora, programación y control mediante componentes electrónicos.
+ Durante esta actividad trabaje en equipo con emi en el diseño y construcción de un brazo robótico, utilizando Solidworks, arduino, tinkercard para simular el codigo y la cortadora laser.  
 
 Para la estructura del brazo utilizamos MDF, mientras que para el control empleamos un Arduino Uno y varios potenciómetros. Los potenciómetros permiten modificar los valores de entrada y controlar el movimiento del brazo de acuerdo con la programación realizada.
 
+## Material
+- mdf 
+- Servomotores sg90
+- Arduino uno
+- Protoboard
+- Potenciometros
+- Jumpers
+- Caimanes banana
+- Fuente de poder 
+
+## planos
+los planos que yo hice de la primera version que hubo un problema que era muy pesado para levantarlo. 
+![foto tapa](assets/img/imgs_03/planos.png) 
+
+## simulacion en tinkercad
+hicimos para verificar que la programacion y como ibamos a conectar el circuito funcionara
+a la perfecion para que no hubiera ningun inconveniente 
+![foto tapa](assets/img/imgs_03/tinker.png) 
+[Simulacion tinkercad](https://www.tinkercad.com/things/giDj2CLlFwF-simulacion-de-la-programacion?sharecode=uswA-ag3knyE5HzJ8NBIPfPGHzHOrWBTtzgB9CqBByk) 
 
 ## Código
 
@@ -71,3 +90,16 @@ void loop() {
   delay(20);
 }
 ```
+## Primera version del brazo 
+En esta primera version tuvimos el problema que era demasiado pesado el brazo 
+entonces el brazo no funcionaba bien y ademas le pasamos demasiado amperaje a los servos que tenian tics. 
+![foto tapa](assets/img/imgs_03/bz1.png) 
+![foto tapa](assets/img/imgs_03/bz2.png)  
+[video brazo version 1](https://youtube.com/shorts/OLW3_Hx73OY?feature=share) 
+
+## Segunda version del brazo 
+En esta version hicimos mas ligero el brazo ahora ya no teniamos problema de que era muy pesado para los 
+servos sg90 y pudimos pasar la pelota con otro robot. 
+![foto tapa](assets/img/imgs_03/bz3.png) 
+![foto tapa](assets/img/imgs_03/bz4.png)  
+[video brazo version 2](https://www.youtube.com/shorts/CPqJnBwnIzU) 
