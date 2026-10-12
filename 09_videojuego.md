@@ -16,6 +16,7 @@ Antes de jugar, eliges la dificultad (Normal, Difícil o Pesadilla) y armas tu e
 En combate te mueves libremente, atacas con combos de 4 golpes, esquivas con invulnerabilidad y haces parry para anular golpes y contraatacar. Una esquiva perfecta activa cámara lenta y permite cambiar de agente para lanzar una asistencia rápida. Los golpes llenan la barra de aturdimiento de los enemigos, y al aturdirlos puedes lanzar un ataque en cadena con todo el equipo. Cada personaje tiene además una habilidad especial y una ultimate con una animación y cinemática únicas.
 
 ## controles 
+
 | Acción | Tecla |
 | :--- | :--- |
 | Mover | WASD |
