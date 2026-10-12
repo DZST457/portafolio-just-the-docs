@@ -17,7 +17,7 @@ En combate te mueves libremente, atacas con combos de 4 golpes, esquivas con inv
 
 ## controles 
 | Acción | Tecla |
-|---|---|
+| :--- | :--- |
 | Mover | WASD |
 | Atacar (combo de 4 golpes) | J o clic |
 | Esquivar | Espacio |
