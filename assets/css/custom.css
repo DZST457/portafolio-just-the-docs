@@ -116,7 +116,7 @@ body::before {
 }
 
 .nav-list .nav-list-link.active {
-  color: #fff !important;
+  color: #e30707 !important;
   font-weight: 600;
   background: linear-gradient(90deg, rgba(0, 240, 255, .16), rgba(255, 43, 214, .08)) !important;
   box-shadow: inset 3px 0 0 var(--cyber-pink), 0 0 16px rgba(0, 240, 255, .08);
